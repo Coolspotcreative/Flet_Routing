@@ -26,6 +26,7 @@ def main(page:flet.Page):
             )
         )
         if page.route =='/settings':
+            page.clear()
             page.views.append(
                 flet.View(
                     '/settings',
